@@ -1,0 +1,30 @@
+header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+nav {
+    grid-area: nav;
+}
+
+.piePagina {
+    grid-area: footer;
+}
+
+.banner {
+    grid-area: banner;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+        "header"
+        "nav"
+        "banner"
+        "main"
+        "footer";
+}

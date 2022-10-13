@@ -1,0 +1,121 @@
+@media (min-width:500px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    header h1 {
+        margin: 15px;
+    }
+
+    header h1:hover {
+        text-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 10px #bd05f5;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    ol,
+    ul {
+        padding-left: 0
+    }
+
+
+    nav a:hover {
+        color: rgb(43, 214, 226);
+        border-bottom: 4px solid rgb(43, 214, 226);
+        text-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #bf00ff;
+    }
+
+    .banner {
+        width: 2000px;
+        transition: 5s;
+        overflow: visible;
+    }
+
+    .banner img {
+        width: 2000px;
+    }
+
+    .banner:hover {
+        transform: translateX(-30%);
+        filter: brightness(80%);
+        color-interpolation-filters: sRGB;
+    }
+
+    .content {
+        font-size: large;
+    }
+
+    .cards-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 450px;
+        gap: 25px;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .piePagina {
+        background-color: black;
+    }
+
+    .piePagina .grupoA {
+        min-height: auto;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+    }
+
+    .piePagina .grupoA .box figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .piePagina .grupoA .box figure img {
+        width: 250px;
+    }
+
+
+
+    .piePagina .grupoA .box p {
+        margin-bottom: 10px;
+    }
+
+
+    .piePagina .grupoB {
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+
+
+}
+
+@media (min-width: 1024px) {
+    .cards-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 450px;
+        gap: 25px;
+    }
+
+    .container {
+        width: 70%;
+        margin: 2em;
+    }
+}

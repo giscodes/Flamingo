@@ -1,0 +1,62 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+
+.gallery .cymaticBox img,
+.plugin img {
+    width: auto;
+    height: 35em;
+}
+
+.gallery .cymaticBox p {
+    color: rgb(0, 204, 255);
+    text-shadow: 0 0 10px rgb(74, 0, 255), 0 0 40px rgb(74, 0, 255), 0 0 80px rgb(74, 0, 255);
+}
+
+.text {
+    color: rgb(0, 204, 255);
+    margin: 20px;
+    font-size: medium;
+}
+
+.containerB {
+    margin: 35px 0 35px 0;
+}
+
+.btn-info {
+    font-size: large;
+    color: aliceblue;
+    box-shadow: 0 0 10px rgb(0, 204, 255), 0 0 10px rgb(0, 204, 255), 0 0 25px rgb(0, 204, 255);
+}
+
+.btn-primary {
+    @extend .btn-info;
+    background-color: $turquoise;
+    border: transparent;
+}
+
+.modal-content {
+    color: #bd05f5;
+}
+
+.btn-special {
+    margin: 75px 0 75px 0;
+    display: flex;
+    flex-direction: column;
+    appearance: none;
+    border: none;
+    background: $turquoise;
+    box-shadow: $shadow;
+    font-size: 18px;
+    font-family: 'Text Me One', sans-serif;
+    color: white;
+    justify-content: center;
+}
+
+.btn-special:hover {
+    transform: scale(0.9, 0.9);
+}
