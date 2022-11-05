@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Monoton&family=Text+Me+One&display=swap");
-.btn-special {
+.btnSpecial {
   width: 100px;
   height: 100px;
   border-radius: 4px;
@@ -103,7 +103,7 @@ nav {
   grid-template-areas: "header" "nav" "banner" "main" "footer";
 }
 
-.cards-list {
+.cardsList {
   z-index: 0;
   width: 100%;
   display: flex;
@@ -122,12 +122,12 @@ nav {
   border-color: black;
   background-color: black;
 }
-.card .card_image {
+.card .cardImage {
   width: inherit;
   height: inherit;
   border-radius: 40px;
 }
-.card .card_image img {
+.card .cardImage img {
   width: inherit;
   height: inherit;
   border-radius: 40px;
@@ -135,7 +135,7 @@ nav {
      object-fit: cover;
 }
 
-.card .card_title {
+.card .cardTitle {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
   font-weight: bold;
@@ -149,15 +149,15 @@ nav {
   box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
 
-.title-blue {
+.titleBlue {
   color: rgba(41, 128, 179, 0.979);
 }
 
-.title-gold {
+.titleGold {
   color: rgba(245, 212, 121, 0.801);
 }
 
-.title-silver {
+.titleSilver {
   color: rgb(146, 170, 190);
 }
 
@@ -189,13 +189,14 @@ nav {
   margin: 35px 0 35px 0;
 }
 
-.btn-info, .btn-primary {
+.btnInfo, .btnPrimary {
   font-size: large;
   color: aliceblue;
+  background-color: rgb(0, 204, 255);
   box-shadow: 0 0 10px rgb(0, 204, 255), 0 0 10px rgb(0, 204, 255), 0 0 25px rgb(0, 204, 255);
 }
 
-.btn-primary {
+.btnPrimary {
   background-color: rgb(0, 204, 255);
   border: transparent;
 }
@@ -204,7 +205,7 @@ nav {
   color: #bd05f5;
 }
 
-.btn-special {
+.btnSpecial {
   margin: 75px 0 75px 0;
   display: flex;
   flex-direction: column;
@@ -220,7 +221,7 @@ nav {
   justify-content: center;
 }
 
-.btn-special:hover {
+.btnSpecial:hover {
   transform: scale(0.9, 0.9);
 }
 
@@ -380,7 +381,7 @@ ul {
   .content {
     font-size: large;
   }
-  .cards-list {
+  .cardsList {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 450px;
@@ -419,7 +420,7 @@ ul {
   }
 }
 @media (min-width: 1024px) {
-  .cards-list {
+  .cardsList {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 450px;

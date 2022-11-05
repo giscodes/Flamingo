@@ -1,4 +1,4 @@
-.cards-list {
+.cardsList {
     z-index: 0;
     width: 100%;
     display: flex;
@@ -17,7 +17,7 @@
     border-color: black;
     background-color: black;
 
-    .card_image {
+    .cardImage {
         width: inherit;
         height: inherit;
         border-radius: 40px;
@@ -32,7 +32,7 @@
 }
 
 
-.card .card_title {
+.card .cardTitle {
     text-align: center;
     border-radius: 0px 0px 40px 40px;
     font-weight: bold;
@@ -47,14 +47,14 @@
         -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
 
-.title-blue {
+.titleBlue {
     color: rgba(41, 128, 179, 0.979);
 }
 
-.title-gold {
+.titleGold {
     color: rgba(245, 212, 121, 0.801);
 }
 
-.title-silver {
+.titleSilver {
     color: rgb(146, 170, 190);
 }

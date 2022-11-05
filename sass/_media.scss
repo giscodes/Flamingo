@@ -54,7 +54,7 @@
         font-size: large;
     }
 
-    .cards-list {
+    .cardsList {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 450px;
@@ -107,7 +107,7 @@
 }
 
 @media (min-width: 1024px) {
-    .cards-list {
+    .cardsList {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 450px;
